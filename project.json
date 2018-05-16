@@ -1,5 +1,16 @@
 {
-	"project":"light_dev_demo",
-	"version":"0.0.1",
-	"desc":"light_dev_demo."
+  "project":"tmp",
+  "version":"0.0.1",
+  "desc":"Just For Fun",
+  "type":"vue",
+  "link_id":"",
+
+  "env":{
+    "default":{
+      "log_level":"debug"
+    },
+    "product":{
+      "log_level":"error"
+    }
+  }
 }
