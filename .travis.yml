@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+  - "8"
+
+cache:
+  directories:
+    - "node_modules"
+
+install:
+    - npm install -gd lighting
+    - light plugin -a type-vue
+    - light plugin -a jsnative
+    - light plugin -a native
+
+script:
+    - light release -p
